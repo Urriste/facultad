@@ -1,0 +1,10 @@
+a) El array luego del primer for seria: 1-2-3-4-5-6-7-8-9-10
+
+b)Las posiciones en el array en el segundo for serian: 1-3-6-10-15-21-28-36-45-55
+
+c)Para que la posicion 10 del array sea igual que en el inciso B, hay que agregar la siguiente linea luego del segundo for:  
+
+	numeros[10]:= numeros[10] + numeros [9];
+    
+	writeln (numeros[10]);
+
