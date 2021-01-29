@@ -1,0 +1,25 @@
+PARTE TEORICA: 
+
+1) La memoria estatica es la memoria donde se alocan las variables estaticas, osea que no pueden ser modificadas en la ejecucion del programa.
+
+2) La memoria dinamica se puede modificar en el transcurso del programa. Se conoce como la memoria HEAP
+
+3) Una variable de tipo puntero almacena un dato en la memoria dinamica. En la variable no esta almacenado el dato en si, si no que està la direccion de la memoria HEAP donde està ese dato.
+
+4) Con el NEW se inicializa el puntero y se le asigna una direccion de memoria 
+
+5) Lo que hace el DISPOSE es borrar la direccion asignada al puntero, y en la direccion en la memoria, limpia todos los datos, y corta con el "camino" que conecta a la variable puntero y esa direccion.
+
+---La diferencia entre DISPOSE y NIL es que con NIL se le saca la direccion al puntero, pero en la direccion de memoria, el dato permanece, osea que la posicion queda ocupada,  y nadie va a poder acceder a esa posicion en lo que resta de programa
+
+
+PARTE "PRACTICA"
+
+1) En todos menos el ultimo writeln se imprimen "8 BYTES": Porque ese es el peso de una variable de tipo puntero 
+
+En el ultimo se imprime 51 BYTES pq es el peso del dato que esta almacenado en la direccion del puntero, osea el string de 50 caracteres (El peso del string es 50 bytes + 1 byte).
+
+
+
+
+
